@@ -1,0 +1,8 @@
+apiVersion: example.com/v1
+kind: Logger
+metadata:
+  name: example-logger
+spec:
+  name: example-logger
+  timeInterval: 3000
+  replicas: 1
